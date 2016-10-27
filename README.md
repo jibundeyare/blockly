@@ -35,22 +35,24 @@ source: [GitHub - google/blockly: The web-based visual programming editor.](http
 
 # copy source from github
 
+Launch a terminal and type:
+
     git clone https://github.com/jibundeyare/blockly.git
 
 # install
 
-Launch a terminal and type:
+In the terminal, type:
 
     cd blockly
     bower install
 
 # run
 
-With linux, launch a terminal and type:
+With linux, in the terminal, type:
 
     xdg-open index.html
 
-With linux, mac os or windows:
+Or with linux, mac os or windows:
 - launch your file explorer
 - go to the source directory
 - right click on `index.html` and select `open`
