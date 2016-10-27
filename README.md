@@ -62,8 +62,8 @@ Enjoy ;)
 
 # todo
 
-Write french documentation.
-Use sass instead of plain css.
+- write french documentation
+- use sass instead of plain css
 
 # credits
 
