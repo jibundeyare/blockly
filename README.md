@@ -1,6 +1,6 @@
 # what is this ?
 
-This is a pre-configured implementation of Google Blockly.
+This is a pre-configured easy to use implementation of Google Blockly.
 
 Now, what is Blockly ?
 
