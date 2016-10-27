@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+<div id="blocklyArea"></div>
+<div id="codeArea">
+  <textarea id="codeRenderArea"></textarea>
+  <img id="resetButton" src="images/iconmonstr-code-8-64.png" alt="régénérer" />
+  <img id="playButton" src="images/iconmonstr-video-13-64.png" alt="exécuter" />
+</div>
+<div id="myConsoleArea">
+  <textarea id="myConsoleRenderArea"></textarea>
+  <img id="clearButton" src="images/iconmonstr-x-mark-4-64.png" alt="effacer" />
+</div>
+
+<xml id="toolbox" style="display: none">
+
+  <category name="Logique">
+    <block type="controls_if"></block>
+    <block type="logic_compare"></block>
+    <block type="logic_operation"></block>
+    <block type="logic_negate"></block>
+    <block type="logic_boolean"></block>
+    <block type="logic_null"></block>
+    <block type="logic_ternary"></block>
+  </category>
+
+  <category name="Boucles">
+    <block type="controls_repeat"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="controls_forEach"></block>
+    <block type="controls_for"></block>
+    <block type="controls_whileUntil"></block>
+  </category>
+
+  <category name="Math">
+    <block type="math_number"></block>
+    <block type="math_arithmetic"></block>
+    <block type="math_single"></block>
+    <block type="math_trig"></block>
+    <block type="math_constant"></block>
+    <block type="math_number_property"></block>
+    <block type="math_change"></block>
+    <block type="math_round"></block>
+    <block type="math_on_list"></block>
+    <block type="math_modulo"></block>
+    <block type="math_constrain"></block>
+    <block type="math_random_int"></block>
+    <block type="math_random_float"></block>
+  </category>
+
+  <category name="Texte">
+    <block type="text"></block>
+
+    <sep gap="50"></sep>
+
+    <block type="text_log"></block>
+    <!-- <block type="text_print"></block> -->
+
+    <sep gap="50"></sep>
+
+    <block type="text_prompt_ext"></block>
+    <block type="text_prompt"></block>
+
+    <sep gap="50"></sep>
+
+    <block type="text_join"></block>
+    <block type="text_create_join_container"></block>
+    <block type="text_create_join_item"></block>
+    <block type="text_append"></block>
+    <block type="text_length"></block>
+    <block type="text_isEmpty"></block>
+    <block type="text_indexOf"></block>
+    <block type="text_charAt"></block>
+    <block type="text_getSubstring"></block>
+    <block type="text_changeCase"></block>
+    <block type="text_trim"></block>
+  </category>
+
+  <category name="Listes">
+    <block type="lists_create_empty"></block>
+    <block type="lists_create_with"></block>
+    <block type="lists_create_with_container"></block>
+    <block type="lists_create_with_item"></block>
+    <block type="lists_repeat"></block>
+    <block type="lists_length"></block>
+    <block type="lists_isEmpty"></block>
+    <block type="lists_indexOf"></block>
+    <block type="lists_getIndex"></block>
+    <block type="lists_setIndex"></block>
+    <block type="lists_getSublist"></block>
+    <block type="lists_sort"></block>
+    <block type="lists_split"></block>
+  </category>
+
+  <sep gap="50"></sep>
+
+  <category name="Variables" custom="VARIABLE"></category>
+
+  <sep gap="50"></sep>
+
+  <category name="Fonctions" custom="PROCEDURE"></category>
+
+</xml>
+
+<script src="bower_components/google-blockly/appengine/storage.js"></script>
+<script src="bower_components/google-blockly/blockly_compressed.js"></script>
+<script src="bower_components/google-blockly/javascript_compressed.js"></script>
+<script src="bower_components/google-blockly/blocks_compressed.js"></script>
+<script src="bower_components/google-blockly/msg/js/fr.js"></script>
+<script src="js/blocks/text.js"></script>
+<script src="js/generators/javascript/text.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

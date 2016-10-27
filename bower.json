@@ -1,0 +1,22 @@
+{
+  "name": "jibundeyare/blockly",
+  "authors": [
+    "Daishi Kaszer <daishi.kaszer@yahoo.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "GPL V3",
+  "homepage": "https://github.com/jibundeyare/blockly",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-blockly": "*",
+    "normalize-css": "^5.0.0"
+  }
+}

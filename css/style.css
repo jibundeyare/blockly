@@ -1,0 +1,79 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+#blocklyArea {
+  height: 75%;
+  left: 0px;
+  position: absolute;
+  width: 65%;
+  top: 0px;
+}
+
+#codeArea {
+  height: 75%;
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: calc(35% - 10px);
+}
+
+#codeRenderArea {
+  height: 100%;
+  outline-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+#resetButton {
+  bottom: 10px;
+  display: inline-block;
+  position: absolute;
+  right: calc(25px + 10px + 64px);
+}
+
+#playButton {
+  bottom: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
+
+#myConsoleArea {
+  height: calc(25% - 10px);
+  left: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+#myConsoleRenderArea {
+  height: 100%;
+  left: 0px;
+  outline-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+#clearButton {
+  bottom: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
+
